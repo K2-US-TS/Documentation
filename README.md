@@ -1,4 +1,4 @@
-# What it is
+# K2 US TS Repo
 
 A common place for all K2 tips, tricks and components. We currently have 6 categories defined in which assets are categorized. There is also some getting started documentation to cover areas of interest and how-to documentation. 
 
