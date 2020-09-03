@@ -1,7 +1,6 @@
----
-title: "My title"
-date: 2020-09-02
----
+layout: page
+title: "Apps"
+permalink: /categories/apps
 # Apps
 
 Inventory of all the completed apps, immersified or standard.
