@@ -7,7 +7,7 @@ Each app or component  has its own repo in order for us to version them individu
 # Categories
 Here's how the assets are broken down:
 
-## [Apps](https://github.com/K2-US-TS/Documentation/blob/master/categories/apps.md)
+## [Apps](https://k2-us-ts.github.io/Documentation/categories/apps)
 All the completed apps, immersified or standard, will be categorized as such.
 
 
