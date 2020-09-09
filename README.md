@@ -25,9 +25,10 @@ Reusable scripts for common actions like animation, control behavior and so on. 
 
 JavaScript files cannot be linked directly from the GitHub repo, it has cross site scripting prevention headers, we need to proxy it through something in order to have them served correctly in SmartForms. There is a nice little site that does that for us, details are in the *JavaScript Files* form.
 
-## [JavaScript Service Provider (JSSP) Components](https://k2-us-ts.github.io/Documentation/categories/jssp)
+## [JavaScript Service Provider (JSSP) Components](#javascript-service-provider-jssp-brokers)
 For all the custom components we create for the JSSP. Each will have its own repo and version. Each component will also need to be documented thoroughly to ensure ease of use.
 
+<br/>
 
 # Apps
 NOTE: The apps have not been ported over yet. The links below do not work. Ping the team if you have an app request.
@@ -35,28 +36,40 @@ NOTE: The apps have not been ported over yet. The links below do not work. Ping 
 ## [Parts Ordering](https://www.google.com)
 Order parts and acknowledge receiving them by phone.
 
-# Common Components
+<br/>
 
-## [Address Lookup - Google](https://github.com/K2-US-TS/Address-Lookup---Google)
+# Common Components
+## [Address Lookup - Google](https://github.com/K2-US-TS/Address-Lookup---Google#address-lookup---google)
 This component allows one to lookup addresses using the Google Maps APIs. Because it uses autocomplete to best guess addresses as you type, it doesn't make sense to have this as a service instance. This implementation is using JavaScript on a reusable view, with only some simple setup needed from the developer's side to get this going.
 
+## [Excel Import Lite](https://github.com/K2-US-TS/Excel-Import-Lite#excel-import-lite)
+Lite version of an Excel import using combination of JavaScript and SQL Server stored procedures to import data from a selected Excel spreadsheet into a SQL Server table.
+
+## [Signature Pad for SmartForms](https://github.com/K2-US-TS/Signature-Pad#signature-pad-for-smartforms)
+With the Signature Pad, you can capture signatures as part of the approval steps of the request. One can scribble using your mouse or finger on touch-screen devices. You can also redraw the signature for read-only views of the request.
+
+<br/>
 
 # [CSS](https://github.com/K2-US-TS/CSS)
 These are generally stand-alone. Some key files are:
 - TBD1
 - TBD2
 
+<br/>
+
 # [Images](https://github.com/K2-US-TS/Images)
 Similar to CSS files, these tend to be stand-alone. Some key images are:
 - TBD1
 - TBD2
 
+<br/>
 
 # [JavaScript Files](https://github.com/K2-US-TS/JS)
 Similar to CSS files, these tend to be stand-alone. Some key files are:
 - TBD1
 - TBD2
 
+<br/>
 
 # JavaScript Service Provider (JSSP) Brokers
 All the custom components we create for the JSSP.
@@ -79,4 +92,3 @@ Supports the following ServiceNow Incident interfaces:
 - GetIncident
 - Create Incident
 - Update Incident
-
