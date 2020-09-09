@@ -7,11 +7,11 @@ Each app or component  has its own repo in order for us to version them individu
 # Categories
 Here's how the assets are broken down:
 
-## [Apps](https://k2-us-ts.github.io/Documentation/categories/apps)
+## [Apps](#apps)
 All the completed apps, immersified or standard, will be categorized as such.
 
 
-## [Common Components](https://k2-us-ts.github.io/Documentation/categories/commoncomponents)
+## [Common Components](#common-components)
 Used for all those reusable views, forms and scripts that we can simply drag and drop onto the canvas, set a view values and have it do its thing. 
 
 ## [CSS Files](https://k2-us-ts.github.io/Documentation/categories/css)
@@ -27,3 +27,22 @@ JavaScript files cannot be linked directly from the GitHub repo, it has cross si
 
 ## [JavaScript Service Provider (JSSP) Components](https://k2-us-ts.github.io/Documentation/categories/jssp)
 For all the custom components we create for the JSSP. Each will have its own repo and version. Each component will also need to be documented thoroughly to ensure ease of use.
+
+
+# Apps
+NOTE: The apps have not been ported over yet. The links below do not work. Ping the team if you have an app request.
+
+## [Parts Ordering](https://www.google.com)
+
+
+# Common Components
+
+## [Address Lookup - Google](https://github.com/K2-US-TS/Address-Lookup---Google)
+This component allows one to lookup addresses using the Google Maps APIs. Because it uses autocomplete to best guess addresses as you type, it doesn't make sense to have this as a service instance. This implementation is using JavaScript on a reusable view, with only some simple setup needed from the developer's side to get this going
+
+
+# CSS
+These are generally stand-alone. Some key files are:
+- TBD1
+- TBD2
+
